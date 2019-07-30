@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>GDP Prediction</title>
+  <title>Home</title>
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f3f7d;">
-  <a class="navbar-brand" href="#">Government Spending</a>
+  <a class="navbar-brand" href="#">Government Scorecard</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,14 +23,20 @@
       <li class="nav-item">
         <a class="nav-link" href="visualization.html">Visualization</a>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.thebalance.com/us-gdp-by-year-3305543">GDP</a>
+          <a class="dropdown-item" href="https://datacatalog.worldbank.org/dataset/world-development-indicators">Healthcare</a>
+          <a class="dropdown-item" href="http://www.oecd.org/about">Education</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://github.com/MTDahmer/GovernmentScorecard">Github</a>
+        </div>
+      </li> 
   </div>
 </nav>
-<div class="sidenav">
-  <h3 style = "color:white">Data Sources</h3>
-  <a href="https://datacatalog.worldbank.org/dataset/world-development-indicators">Healthcare</a>
-  <a href="http://www.oecd.org/about/">Education</a>
-  <a href="https://www.thebalance.com/us-gdp-by-year-3305543">Presidential</a>
-</div>
 
 <!-- Page content -->
 <div class="main">
@@ -49,6 +55,9 @@
     We also looked into another way in which government spending may influence a country- in the form of it’s leadership. We analyzed every president, the size of the GDP when they were president, and the size of the GDP leading up to their election, and then built a predictive model based on that data.
     </p>
 </div>
+</div>
+<div class= "footer">
+<p>Copyright by Mitchell, Jerome, and Vien</p>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
